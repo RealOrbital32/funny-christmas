@@ -1,0 +1,33 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>windingstaircase</ID>
+
+	<Entry>
+		<ID>WINDINGSTAIRCASE_DESC</ID>
+		<Name>Winding Staircase</Name>
+
+		<Curiosity>TTTWINS</Curiosity>
+
+		<ExploreFact>
+			<ID>WINDINGSTAIRCASE_DISCOVERY</ID>
+			<Text>A moon with an elevation that slowly goes down, like a staircase.</Text>
+		</ExploreFact>
+	</Entry>
+	<Entry>
+		<ID>WINDINGSTAIRCASE_ROOT</ID>
+		<Name>Nomai Text</Name>
+
+		<Curiosity>CHRISTMAS</Curiosity>
+
+		<RumorFact>
+			<ID>WINDINGSTAIRCASE_WITNESS</ID>
+			<RumorName>Winding Staircase</RumorName>
+			<SourceID>JUANDALE_ROOT</SourceID>
+			<IgnoreMoreToExplore/>
+			<Text>Ernesto told me I might find a lead on the SECOND STEP FROM THE SOUTH on Sensual Aroma's moon, Winding Staircase.</Text>
+		</RumorFact>
+		<ExploreFact>
+			<ID>WINDINGSTAIRCASE_NOMAITEXT</ID>
+			<Text>I found some Nomai text on the staircase. It told me where the kidnapper of Snata Claws might have went.</Text>
+		</ExploreFact>
+	</Entry>
+</AstroObjectEntry>

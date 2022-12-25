@@ -1,0 +1,202 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "sensual aroma ;)",
+	"starSystem": "O32.FunnySystem",
+	"Base": {
+		"surfaceSize": 1001,
+		"surfaceGravity": 27,
+		"hasMapMarker": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 35000,
+		"inclination": 357,
+		"primaryBody": "testicular torsion twins",
+		"isMoon": false,
+		"isTidallyLocked": false,
+		"axialTilt": 12,
+		"longitudeOfAscendingNode": 0,
+		"eccentricity": 0,
+		"argumentOfPeriapsis": 0,
+		"siderealPeriod": 7
+	},
+	"Atmosphere": {
+		"size": 1000,
+		"fogTint": {
+			"r": 81,
+			"g": 123,
+			"b": 156,
+			"a": 255
+		},
+		"fogSize": 1000,
+		"fogDensity": 1,
+		"clouds": {
+			"cloudsPrefab": "basic",
+			"outerCloudRadius": 990,
+			"innerCloudRadius": 870,
+			"texturePath": "planets/assets/sensualaroma_g.png",
+			"capPath": "planets/assets/sensualaroma_c.png",
+			"tint": {
+				"r": 81,
+				"g": 123,
+				"b": 156,
+				"a": 255
+			},
+			"fluidType": "plasma",
+			"hasLightning": false
+		}
+	},
+	"Rings": [
+		{
+			"inclination": 3,
+			"texture": "planets/assets/sensualaroma_r.png",
+			"fluidType": "sand",
+			"innerRadius": 1200,
+			"outerRadius": 1700,
+			"rotationSpeed": 1
+		}
+	],
+	"Sand": {
+		"size": 50,
+		"tint": {
+			"r": 62,
+			"g": 82,
+			"b": 80,
+			"a": 255
+		}
+	},
+	"Water": {
+		"size": 500,
+		"tint": {
+			"r": 50,
+			"g": 168,
+			"b": 125,
+			"a": 255
+		}
+	},
+	"Volumes": {
+		"speedTrapVolumes": [
+			{
+				"radius": 500,
+				"speedLimit": 1,
+				"acceleration": 15
+			}
+		],
+		"notificationVolumes": [
+			{
+				"entryNotification": {
+					"displayMessage": "HIGH VISCOSITY NOTICE"
+				},
+				"radius": 500
+			}
+		],
+		"visorEffects": {
+			"frostEffectVolumes": [
+				{
+					"maxFrost": 0.5,
+					"radius": 500
+				}
+			]
+		}
+	},
+	"Props": {
+		"details": [
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Ghosts_DreamZone_2/GhostNodeMap_HornetHouse/Prefab_IP_GhostBird_Hornet/Ghostbird_IP_ANIM",
+				"position": {
+					"x": 0,
+					"y": 50,
+					"z": 0
+				}
+			}
+		],
+		"dialogue": [
+			{
+				"xmlFile": "planets/Dialogue/Snata.xml",
+				"radius": 2,
+				"range": 2,
+				"position": {
+					"x": 0,
+					"y": 52.5,
+					"z": 0
+				}
+			}
+		],
+		"tornados": [
+			{
+				"elevation": 495,
+				"height": 375,
+				"type": "downwards",
+				"tint": {
+					"r": 50,
+					"g": 168,
+					"b": 125,
+					"a": 255
+				}
+			},
+			{
+				"elevation": 495,
+				"height": 375,
+				"type": "downwards",
+				"tint": {
+					"r": 50,
+					"g": 168,
+					"b": 125,
+					"a": 255
+				}
+			},
+			{
+				"elevation": 495,
+				"height": 375,
+				"type": "downwards",
+				"tint": {
+					"r": 50,
+					"g": 168,
+					"b": 125,
+					"a": 255
+				}
+			},
+			{
+				"elevation": 495,
+				"height": 375,
+				"type": "downwards",
+				"tint": {
+					"r": 50,
+					"g": 168,
+					"b": 125,
+					"a": 255
+				}
+			},
+			{
+				"elevation": 495,
+				"height": 375,
+				"type": "downwards",
+				"tint": {
+					"r": 50,
+					"g": 168,
+					"b": 125,
+					"a": 255
+				}
+			},
+			{
+				"elevation": 495,
+				"height": 375,
+				"type": "downwards",
+				"tint": {
+					"r": 50,
+					"g": 168,
+					"b": 125,
+					"a": 255
+				}
+			}
+		]
+	},
+		"ShipLog": {
+			"xmlFile": "planets/ShipLogs/sensualaroma.xml",
+			"spriteFolder": "planets/ShipLogs/entries",
+			"mapMode": {
+				"scale": 1,
+				"offset": 0,
+				"revealedSprite": "planets/ShipLogs/sprites/sensualaroma_map_mode.png"
+			}
+		}
+	}

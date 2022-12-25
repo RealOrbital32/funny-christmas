@@ -1,0 +1,15 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>formingmoon</ID>
+
+	<Entry>
+		<ID>FORMINGMOON_DESC</ID>
+		<Name>Forming Moon</Name>
+
+		<Curiosity>TTTWINS</Curiosity>
+
+		<ExploreFact>
+			<ID>FORMINGMOON_DISCOVERY</ID>
+			<Text>If you couldn't tell already by the name, this is a moon that is still forming from the debris orbiting Waltuh and Tires.</Text>
+		</ExploreFact>
+	</Entry>
+</AstroObjectEntry>

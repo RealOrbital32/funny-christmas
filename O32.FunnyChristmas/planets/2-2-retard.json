@@ -1,0 +1,66 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "lil' retard",
+	"starSystem": "O32.FunnySystem",
+	"Base": {
+		"surfaceSize": 75,
+		"surfaceGravity": 7,
+		"hasMapMarker": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 3500,
+		"inclination": 23,
+		"trueAnomaly": 213,
+		"primaryBody": "sensual aroma ;)",
+		"isMoon": true,
+		"isTidallyLocked": false,
+		"axialTilt": 73,
+		"longitudeOfAscendingNode": 184,
+		"eccentricity": 0.05,
+		"argumentOfPeriapsis": 12,
+		"siderealPeriod": 2.5
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/retard_h.png",
+		"textureMap": "planets/assets/retard_t.png",
+		"minHeight": 10,
+		"maxHeight": 75
+	},
+	"Atmosphere": {
+		"size": 85,
+		"fogSize": 85,
+		"atmosphereTint": {
+			"r": 15,
+			"g": 50,
+			"b": 100,
+			"a": 255
+		},
+		"fogTint": {
+			"r": 15,
+			"g": 50,
+			"b": 100,
+			"a": 255
+		}
+	},
+	"Water": {
+		"size": 45
+	},
+	"Props": {
+		"scatter": [
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"count": 20,
+				"minHeight": 45
+			}
+		]
+	},
+	"ShipLog": {
+		"xmlFile": "planets/ShipLogs/lilretard.xml",
+		"spriteFolder": "planets/ShipLogs/entries",
+		"mapMode": {
+			"scale": 0.075,
+			"offset": 0,
+			"revealedSprite": "planets/ShipLogs/sprites/lilretard_map_mode.png"
+		}
+	}
+}

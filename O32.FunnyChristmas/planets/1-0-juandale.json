@@ -1,0 +1,84 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "juandale",
+	"starSystem": "O32.FunnySystem",
+	"Base": {
+		"surfaceSize": 201,
+		"surfaceGravity": 9,
+		"hasMapMarker": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 25000,
+		"inclination": 2,
+		"primaryBody": "testicular torsion twins",
+		"isMoon": false,
+		"isTidallyLocked": false,
+		"axialTilt": 10,
+		"longitudeOfAscendingNode": 0,
+		"eccentricity": 0,
+		"argumentOfPeriapsis": 0,
+		"siderealPeriod": 4
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/juandale_h.png",
+		"textureMap": "planets/assets/juandale_t.png",
+		"minHeight": 170,
+		"maxHeight": 200
+	},
+	"Atmosphere": {
+		"size": 215,
+		"fogTint": {
+			"r": 58,
+			"g": 69,
+			"b": 50,
+			"a": 100
+		},
+		"fogSize": 210,
+		"fogDensity": 0.2
+	},
+	"Props": {
+		"dialogue": [
+			{
+				"range": 5,
+				"position": {
+					"x": 0,
+					"y": 201,
+					"z": 0
+				},
+				"xmlFile": "planets/Dialogue/ErnestoJuandale.xml"
+			}
+		],
+		"details": [
+			{
+				"path": "Anglerfish_Body/Beast_Anglerfish",
+				"position": {
+					"x": 0,
+					"y": 201,
+					"z": 0
+				},
+				"scale": 0.02,
+				"removeChildren": [
+					"B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end"
+				]
+			},
+			{
+				"path": "Anglerfish_Body/Beast_Anglerfish_Collision",
+				"position": {
+					"x": 0,
+					"y": 201,
+					"z": 0
+				},
+				"scale": 0.02
+			}
+		]
+	},
+	"ShipLog": {
+		"xmlFile": "planets/ShipLogs/juandale.xml",
+		"spriteFolder": "planets/ShipLogs/entries",
+		"mapMode": {
+			"scale": 0.2,
+			"offset": 0,
+			"revealedSprite": "planets/ShipLogs/sprites/juandale_map_mode.png"
+		}
+	}
+}

@@ -1,0 +1,51 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "waltuh hatwell whit",
+	"starSystem": "O32.FunnySystem",
+	"Base": {
+		"surfaceSize": 200,
+		"surfaceGravity": 7,
+		"hasMapMarker": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 450,
+		"inclination": 17,
+		"primaryBody": "WALTUH IS WIDE AS HELL SHEEEESH",
+		"isMoon": true,
+		"axialTilt": 17,
+		"siderealPeriod": 4.75
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/waltuh_h.png",
+		"textureMap": "planets/assets/waltuh_t.png",
+		"minHeight": 100,
+		"maxHeight": 200
+	},
+	"Props": {
+		"nomaiText": [
+			{
+				"xmlFile": "planets/nomaiText/Crater.xml",
+				"position": {
+					"x": 27.47771,
+					"y": -105.4025,
+					"z": 96.03846
+				},
+				"normal": {
+					"x": -0.6033212,
+					"y": -0.6843968,
+					"z": 0.4093957
+				},
+				"type": "recorder"
+			}
+		]
+	},
+	"ShipLog": {
+		"xmlFile": "planets/ShipLogs/waltuh.xml",
+		"spriteFolder": "planets/ShipLogs/entries",
+		"mapMode": {
+			"scale": 0.2,
+			"offset": 0,
+			"revealedSprite": "planets/ShipLogs/sprites/waltuh_map_mode.png"
+		}
+	}
+}

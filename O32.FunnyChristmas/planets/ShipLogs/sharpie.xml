@@ -1,0 +1,40 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>sharpie</ID>
+
+	<Entry>
+		<ID>SHARPIE_DESC</ID>
+		<Name>Sharpie</Name>
+
+		<Curiosity>TTTWINS</Curiosity>
+
+		<ExploreFact>
+			<ID>SHARPIE_DISCOVERY</ID>
+			<Text>A moon that, if you stare at it long enough, looks like a penis. Yummy!</Text>
+		</ExploreFact>
+	</Entry>
+    <Entry>
+        <ID>SHARPIE_ROOT</ID>
+        <Name>Kidnapper on Sharpie</Name>
+
+        <Curiosity>CHRISTMAS</Curiosity>
+
+		<RumorFact>
+			<ID>SHARPIE_RUMOR_WALTUH</ID>
+			<RumorName>Kidnapper on Sharpie (Waltuh)</RumorName>
+			<SourceID>WALTUH_ROOT</SourceID>
+			<IgnoreMoreToExplore/>
+			<Text>Inside a present was a note that told the Nomai to go to the "penis moon".</Text>
+		</RumorFact>
+		<RumorFact>
+			<ID>SHARPIE_RUMOR_DRIP</ID>
+			<RumorName>Kidnapper on Sharpie (Drip)</RumorName>
+			<SourceID>DRIP_ROOT</SourceID>
+			<IgnoreMoreToExplore/>
+			<Text>There was a stardust trail heading in the direction of Sharpie.</Text>
+		</RumorFact>
+	    <ExploreFact>
+            <ID>SHARPIE_GESWALDO_SNATA</ID>
+            <Text>After telling Geswaldo about the elf and the present, he confessed to stuffing Snata inside the core of Sensual Aroma.</Text>
+        </ExploreFact>
+    </Entry>
+</AstroObjectEntry>

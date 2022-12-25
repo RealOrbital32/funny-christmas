@@ -1,0 +1,58 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Quantum Lean (Final Version)",
+	"starSystem": "O32.FunnyEnding",
+	"canShowOnTitle": false,
+	"isQuantumState": true,
+	"Base": {
+		"surfaceGravity": 10,
+		"surfaceSize": 150,
+		"hasMapMarker": true,
+		"ambientLight": 0
+	},
+	"Orbit": {
+		"semiMajorAxis": 25000,
+		"primaryBody": "TT Twins Focal Point (Final Version)",
+		"isMoon": true,
+		"trueAnomaly": 90,
+		"showOrbitLine": false
+	},
+	"Atmosphere": {
+		"size": 150,
+		"fogTint": {
+			"r": 255,
+			"g": 125,
+			"b": 50,
+			"a": 255
+		},
+		"fogSize": 150,
+		"fogDensity": 0.1,
+		"clouds": {
+			"cloudsPrefab": "quantumMoon",
+			"outerCloudRadius": 145,
+			"innerCloudRadius": 130,
+			"texturePath": "planets/assets/car.png",
+			"capPath": "planets/assets/car_cap.png",
+			"tint": {
+				"r": 181,
+				"g": 181,
+				"b": 230,
+				"a": 255
+			},
+			"fluidType": "plasma",
+			"hasLightning": false
+		}
+	},
+	"Props": {
+		"signals": [
+			{
+				"audio": "OW_QuantumSignal",
+				"detectionRadius": 400,
+				"frequency": "Quantum",
+				"identificationRadius": 250,
+				"name": "QUANTUM LEAN <3",
+				"sourceRadius": 200
+			}
+		]
+	}
+}

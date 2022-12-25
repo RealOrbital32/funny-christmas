@@ -1,0 +1,33 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>waltuh</ID>
+
+	<Entry>
+		<ID>WALTUH_DESC</ID>
+		<Name>Waltuh</Name>
+
+		<Curiosity>TTTWINS</Curiosity>
+
+		<ExploreFact>
+			<ID>WALTUH_DISCOVERY</ID>
+			<Text>Waltuh is apart of a binary system, and looks like a cartoony moon.</Text>
+		</ExploreFact>
+	</Entry>
+    <Entry>
+        <ID>WALTUH_ROOT</ID>
+        <Name>Southern Crater</Name>
+
+        <Curiosity>CHRISTMAS</Curiosity>
+
+		<RumorFact>
+			<ID>WALTUH_RUMOR</ID>
+			<RumorName>Clues on Waltuh</RumorName>
+			<SourceID>WINDINGSTAIRCASE_ROOT</SourceID>
+			<IgnoreMoreToExplore/>
+			<Text>Supposedly, the kidnapper left something in one of the southern craters.</Text>
+		</RumorFact>
+        <ExploreFact>
+            <ID>CRATER</ID>
+            <Text>There was a recording of another group of Nomai who stopped by here, mentioning how Snata Claus left a present here.</Text>
+        </ExploreFact>
+    </Entry>
+</AstroObjectEntry>

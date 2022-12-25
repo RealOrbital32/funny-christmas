@@ -1,0 +1,33 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>sensualaroma</ID>
+
+	<Entry>
+		<ID>SENSUALAROMA_DESC</ID>
+		<Name>Sensual Aroma</Name>
+
+		<Curiosity>TTTWINS</Curiosity>
+
+		<ExploreFact>
+			<ID>SENSUALAROMA_DISCOVERY</ID>
+			<Text>This gas giant smells weird, and it turns me on!</Text>
+		</ExploreFact>
+	</Entry>
+	<Entry>
+		<ID>SENSUALAROMA_ROOT</ID>
+		<Name>Snata</Name>
+
+		<Curiosity>CHRISTMAS</Curiosity>
+
+		<RumorFact>
+			<ID>SNATA_RUMOR</ID>
+			<RumorName>Snata's Location</RumorName>
+			<SourceID>SHARPIE_ROOT</SourceID>
+			<IgnoreMoreToExplore/>
+			<Text>Snata is inside Sensual Aroma... hopefully. (hint: north pole)</Text>
+		</RumorFact>
+		<ExploreFact>
+			<ID>SNATA_FOUND</ID>
+			<Text>Snata has been trapped inside Sensual Aroma for quite a while now. The composition and scent at the core has been driving him mad horny. Unfortunately, he's gone crazy horny, so I'm not gonna save him.</Text>
+		</ExploreFact>
+	</Entry>
+</AstroObjectEntry>

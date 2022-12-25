@@ -1,0 +1,52 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "tires on dat car",
+	"starSystem": "O32.FunnySystem",
+	"Base": {
+		"surfaceSize": 350,
+		"surfaceGravity": 9,
+		"hasMapMarker": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 450,
+		"inclination": 17,
+		"primaryBody": "WALTUH IS WIDE AS HELL SHEEEESH",
+		"isMoon": true,
+		"axialTilt": 17,
+		"siderealPeriod": 5.25
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/tires_h.png",
+		"textureMap": "planets/assets/tires_t.png",
+		"minHeight": 200,
+		"maxHeight": 300
+	},
+	"Atmosphere": {
+		"size": 350,
+		"fogTint": {
+			"r": 81,
+			"g": 123,
+			"b": 156,
+			"a": 255
+		},
+		"fogSize": 350,
+		"fogDensity": 0.7,
+		"clouds": {
+			"cloudsPrefab": "transparent",
+			"outerCloudRadius": 320,
+			"innerCloudRadius": 345,
+			"texturePath": "planets/assets/h_g.png",
+			"fluidType": "plasma",
+			"hasLightning": false
+		}
+	},
+	"ShipLog": {
+		"xmlFile": "planets/ShipLogs/tires.xml",
+		"spriteFolder": "planets/ShipLogs/entries",
+		"mapMode": {
+			"scale": 0.35,
+			"offset": 0,
+			"revealedSprite": "planets/ShipLogs/sprites/tires_map_mode.png"
+		}
+	}
+}

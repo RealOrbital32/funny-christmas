@@ -1,0 +1,65 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>AVERY: We came here to continue our search of the Quantum Lean's variants. However, there's not much interesting here, so it's of no importance.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>JAYLA: Hey, Avery, do you see that?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>AVERY: See what?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>JAYLA: There's two stardust trails going towards that crater moon (Waltuh) and that dark gaseous moon (Drip).</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>JAYLA: let me get my telescope to observe...</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>AVERY: What do you see?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>JAYLA: Some animal carrying another animal to a southern crater of that crater moon. Oh, and now they're heading to the south pole of that dark gaseous moon.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>AVERY: Didn't scans show that dark gaseous moon's poles to be filled with lava?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<ParentID>8</ParentID>
+		<Text>JAYLA: There could very well be a island there, Avery.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>10</ID>
+		<ParentID>9</ParentID>
+		<Text>AVERY: I suppose. Nevertheless, let's continue what we were working on.</Text>
+	</TextBlock>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>WALTUH_RUMOR</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>DRIP_RUMOR</FactID>
+			<Condition>9</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>WINDINGSTAIRCASE_NOMAITEXT</FactID>
+			<Condition>9</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

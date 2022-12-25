@@ -1,0 +1,9 @@
+{
+  "filename": "NewHorizonsConfig.dll",
+  "author": "Orbital 32 (a.k.a cigtu)",
+  "name": "Funny Christmas",
+  "uniqueName": "O32.FunnyChristmas",
+  "version": "1.0.0",
+  "owmlVersion": "2.1.0",
+  "dependencies": [ "xen.NewHorizons", "O32.FunnySystem" ]
+}

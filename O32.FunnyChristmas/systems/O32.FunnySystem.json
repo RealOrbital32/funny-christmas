@@ -1,0 +1,134 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
+	"curiosities": [
+		{
+				"id": "CHRISTMAS",
+				"color": {
+					"r": 141,
+					"g": 252,
+					"b": 5,
+					"a": 255
+				},
+				"highlightColor": {
+					"r": 175,
+					"g": 252,
+					"b": 81,
+					"a": 255
+				}
+			}
+	],
+	"entryPositions": [
+		{
+			"id": "FORMINGMOON_DESC",
+			"position": {
+				"x": 300,
+				"y": 2860
+			}
+		},
+		{
+			"id": "WALTUH_ROOT",
+			"position": {
+				"x": 690,
+				"y": 2900
+			}
+		},
+		{
+			"id": "WALTUH_DESC",
+			"position": {
+				"x": 300,
+				"y": 2680
+			}
+		},
+		{
+			"id": "TIRES_DESC",
+			"position": {
+				"x": 300,
+				"y": 2500
+			}
+		},
+		{
+			"id": "DRIP_ROOT",
+			"position": {
+				"x": 850,
+				"y": 2900
+			}
+		},
+		{
+			"id": "DRIP_DESC",
+			"position": {
+				"x": 150,
+				"y": 2500
+			}
+		},
+		{
+			"id": "LILRETARD_DESC",
+			"position": {
+				"x": 0,
+				"y": 3020
+			}
+		},
+		{
+			"id": "SHARPIE_ROOT",
+			"position": {
+				"x": 770,
+				"y": 3100
+			}
+		},
+		{
+			"id": "SHARPIE_DESC",
+			"position": {
+				"x": 0,
+				"y": 2860
+			}
+		},
+		{
+			"id": "WINDINGSTAIRCASE_ROOT",
+			"position": {
+				"x": 770,
+				"y": 2700
+			}
+		},
+		{
+			"id": "WINDINGSTAIRCASE_DESC",
+			"position": {
+				"x": 0,
+				"y": 2680
+			}
+		},
+		{
+			"id": "SENSUALAROMA_ROOT",
+			"position": {
+				"x": 770,
+				"y": 3300
+			}
+		},
+		{
+			"id": "SENSUALAROMA_DESC",
+			"position": {
+				"x": 0,
+				"y": 2500
+			}
+		},
+		{
+			"id": "JUANDALE_WITNESS",
+			"position": {
+				"x": 770,
+				"y": 2500
+			}
+		},
+		{
+			"id": "JUANDALE_ROOT",
+			"position": {
+				"x": 600,
+				"y": 2500
+			}
+		},
+		{
+			"id": "JUANDALE_DESC",
+			"position": {
+				"x": -150,
+				"y": 2500
+			}
+		}
+	]
+}

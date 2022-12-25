@@ -1,0 +1,15 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>tires</ID>
+
+	<Entry>
+		<ID>TIRES_DESC</ID>
+		<Name>Tires</Name>
+
+		<Curiosity>TTTWINS</Curiosity>
+
+		<ExploreFact>
+			<ID>TIRES_DISCOVERY</ID>
+			<Text>Since NH hasn't bothered to fix the stretch parameter, Tires decicded to stretch itself with a heightmap. What do you mean you don't understand a thing I just said?</Text>
+		</ExploreFact>
+	</Entry>
+</AstroObjectEntry>

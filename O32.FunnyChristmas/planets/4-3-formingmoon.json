@@ -1,0 +1,40 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Forming Moon",
+	"starSystem": "O32.FunnySystem",
+	"Base": {
+		"surfaceSize": 100,
+		"surfaceGravity": 5,
+		"hasMapMarker": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 2175,
+		"inclination": 56,
+		"primaryBody": "WALTUH IS WIDE AS HELL SHEEEESH",
+		"isMoon": true,
+		"axialTilt": 58,
+		"siderealPeriod": 2.33
+	},
+	"Sand": {
+		"size": 100,
+		"curve": [
+			{
+				"time": 0,
+				"value": 0
+			},
+			{
+				"time": 11,
+				"value": 1
+			}
+		]
+	},
+	"ShipLog": {
+		"xmlFile": "planets/ShipLogs/formingmoon.xml",
+		"spriteFolder": "planets/ShipLogs/entries",
+		"mapMode": {
+			"scale": 0.1,
+			"offset": 0,
+			"revealedSprite": "planets/ShipLogs/sprites/formingmoon_map_mode.png"
+		}
+	}
+}

@@ -1,0 +1,37 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "WALTUH IS WIDE AS HELL SHEEEESH",
+	"starSystem": "O32.FunnySystem",
+	"Base": {
+		"hasMapMarker": false
+	},
+	"Orbit": {
+		"semiMajorAxis": 55000,
+		"inclination": 17,
+		"primaryBody": "testicular torsion twins",
+		"trueAnomaly": 65
+	},
+	"FocalPoint": {
+		"primary": "tires on dat car",
+		"secondary": "waltuh hatwell whit"
+	},
+	"Rings": [
+		{
+			"texture": "planets/assets/tires_r.png",
+			"inclination": 56,
+			"innerRadius": 2100,
+			"outerRadius": 2250,
+			"fluidType": "sand",
+			"opacityCurve": [
+				{
+					"time": 0,
+					"value": 1
+				},
+				{
+					"time": 11,
+					"value": 0
+				}
+			]
+		}
+	]
+}

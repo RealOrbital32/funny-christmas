@@ -1,0 +1,33 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>drip</ID>
+
+	<Entry>
+		<ID>DRIP_DESC</ID>
+		<Name>Drip</Name>
+
+		<Curiosity>TTTWINS</Curiosity>
+
+		<ExploreFact>
+			<ID>DRIP_DISCOVERY</ID>
+			<Text>It's like Desfiladeiro if you turned it inside out so that you're walking on top of the canyon.</Text>
+		</ExploreFact>
+	</Entry>
+    <Entry>
+        <ID>DRIP_ROOT</ID>
+        <Name>Southern Island</Name>
+
+        <Curiosity>CHRISTMAS</Curiosity>
+
+        <RumorFact>
+            <ID>DRIP_RUMOR</ID>
+            <RumorName>Clues on Drip</RumorName>
+			<SourceID>WINDINGSTAIRCASE_ROOT</SourceID>
+			<IgnoreMoreToExplore/>
+            <Text>The kidnapper may have left clues on a hidden south island on Drip.</Text>
+        </RumorFact>
+		<ExploreFact>
+			<ID>SOUTH_ISLAND</ID>
+			<Text>At the south pole of Drip was a small island above the lava. One of Snata's elves (who looked like a tiny Nomai) stated that they knew where Snata was, and that was on the "penis moon".</Text>
+		</ExploreFact>
+    </Entry>
+</AstroObjectEntry>

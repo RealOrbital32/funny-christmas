@@ -1,0 +1,67 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "OH F**K, THE SHARPIE IS PERMANENT!!!",
+	"starSystem": "O32.FunnySystem",
+	"Base": {
+		"surfaceSize": 135,
+		"surfaceGravity": 9,
+		"hasMapMarker": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 4000,
+		"inclination": 358,
+		"trueAnomaly": 137,
+		"primaryBody": "sensual aroma ;)",
+		"isMoon": true,
+		"isTidallyLocked": false,
+		"axialTilt": 19,
+		"longitudeOfAscendingNode": 0,
+		"eccentricity": 0.1,
+		"argumentOfPeriapsis": 234,
+		"siderealPeriod": 2.5
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/sharpie_h.png",
+		"textureMap": "planets/assets/sharpie_t.png",
+		"minHeight": 50,
+		"maxHeight": 135
+	},
+	"Props": {
+		"details": [
+			{
+				"path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot (1)/Jellyfish_Body/Beast_GD_Jellyfish_v4",
+				"scale": 0.15,
+				"position": {
+					"x": 0,
+					"y": 51,
+					"z": 0
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				}
+			}
+		],
+		"dialogue": [
+			{
+				"position": {
+					"x": 0,
+					"y": 50,
+					"z": 0
+				},
+				"xmlFile": "planets/Dialogue/GeswaldoSharpie.xml",
+				"radius": 2
+			}
+		]
+	},
+	"ShipLog": {
+		"xmlFile": "planets/ShipLogs/sharpie.xml",
+		"spriteFolder": "planets/ShipLogs/entries",
+		"mapMode": {
+			"scale": 0.135,
+			"offset": 0,
+			"revealedSprite": "planets/ShipLogs/sprites/sharpie_map_mode.png"
+		}
+	}
+}

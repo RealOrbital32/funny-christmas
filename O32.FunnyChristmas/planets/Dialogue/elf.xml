@@ -1,0 +1,61 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Elf</NameField>
+
+	<DialogueNode>
+		<Name>MAIN</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Who are you and uh... what business do you have with me?</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Do you know where Snata went?</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>i'm asking the same thing.</Text>
+				<DialogueTarget>END</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>Yeah, but I'm fucking stranded here. Can't you goddamn see that you little fucking twa-</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Bro. Chill with the language. Just tell me where he went so I can find him for you.</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<RevealFacts>
+			<FactID>SOUTH_ISLAND</FactID>
+		</RevealFacts>
+		<RevealFacts>
+			<FactID>SHARPIE_RUMOR_DRIP</FactID>
+		</RevealFacts>
+		<Dialogue>
+			<Page>*sigh*, I recall seeing a stardust trail (whom belongs to Snata) going in the direction of Sensual Aroma. If I had to guess, he's on the penis moon.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>...penis moon?</Text>
+				<DialogueTarget>END</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>END</Name>
+		<Dialogue>
+			<Page>Why don't you do me a favor and kill yourself. Now.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

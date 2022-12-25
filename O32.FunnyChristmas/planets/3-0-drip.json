@@ -1,0 +1,103 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "GOKU DRIP1?!?!!??!1?1?2!1121?",
+	"starSystem": "O32.FunnySystem",
+	"Base": {
+		"surfaceSize": 200,
+		"surfaceGravity": 9,
+		"hasMapMarker": true,
+		"ambientLight": 1
+	},
+	"Orbit": {
+		"semiMajorAxis": 45000,
+		"inclination": 1,
+		"primaryBody": "testicular torsion twins",
+		"isMoon": false,
+		"isTidallyLocked": false,
+		"axialTilt": 1,
+		"longitudeOfAscendingNode": 0,
+		"eccentricity": 0.05,
+		"argumentOfPeriapsis": 342,
+		"siderealPeriod": 4.5
+	},
+	"Atmosphere": {
+		"size": 200,
+		"fogTint": {
+			"r": 81,
+			"g": 123,
+			"b": 156,
+			"a": 255
+		},
+		"fogSize": 200,
+		"fogDensity": 0.7,
+		"clouds": {
+			"cloudsPrefab": "quantumMoon",
+			"outerCloudRadius": 195,
+			"innerCloudRadius": 180,
+			"texturePath": "planets/assets/drip_g.png",
+			"tint": {
+				"r": 51,
+				"g": 59,
+				"b": 46,
+				"a": 255
+			},
+			"fluidType": "plasma",
+			"hasLightning": false
+		}
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/drip_h.png",
+		"textureMap": "planets/assets/drip_t.png",
+		"minHeight": 10,
+		"maxHeight": 160,
+		"resolution": 1200
+	},
+	"Lava": {
+		"size": 25,
+		"tint": {
+			"r": 63,
+			"g": 84,
+			"b": 47,
+			"a": 255
+		}
+	},
+	"ShipLog": {
+		"xmlFile": "planets/ShipLogs/drip.xml",
+		"spriteFolder": "planets/ShipLogs/entries",
+		"mapMode": {
+			"scale": 0.2,
+			"offset": 0,
+			"revealedSprite": "planets/ShipLogs/sprites/drip_map_mode.png"
+		}
+	},
+	"Props": {
+		"details": [
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/Character_NOM_Solanum/Nomai_ANIM_SkyWatching_Idle",
+				"scale": 0.5,
+				"position": {
+					"x": 0,
+					"y": -79,
+					"z": 0
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 180
+				}
+			}
+		],
+		"dialogue": [
+			{
+				"position": {
+					"x": 0,
+					"y": -74,
+					"z": 0
+				},
+				"xmlFile": "planets/Dialogue/elf.xml",
+				"range": 6,
+				"radius": 6
+			}
+		]
+	}
+}

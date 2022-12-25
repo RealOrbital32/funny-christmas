@@ -1,0 +1,55 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "winding STAREcase",
+	"starSystem": "O32.FunnySystem",
+	"Base": {
+		"surfaceSize": 150,
+		"surfaceGravity": 12,
+		"hasMapMarker": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 3000,
+		"inclination": 356,
+		"primaryBody": "sensual aroma ;)",
+		"isMoon": true,
+		"isTidallyLocked": false,
+		"axialTilt": 312,
+		"longitudeOfAscendingNode": 0,
+		"eccentricity": 0.1,
+		"argumentOfPeriapsis": 0,
+		"siderealPeriod": 3
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/windingstaircase_h.png",
+		"textureMap": "planets/assets/windingstaircase_t.png",
+		"minHeight": 10,
+		"maxHeight": 150
+	},
+	"Props": {
+		"nomaiText": [
+			{
+				"xmlFile": "planets/nomaiText/Text.xml",
+				"position": {
+					"x": -78.13672,
+					"y": -65.01603,
+					"z": -2.086807
+				},
+				"normal": {
+					"x": -0.7726197,
+					"y": -0.634342,
+					"z": -0.02586651
+				},
+				"type": "recorder"
+			}
+		]
+	},
+	"ShipLog": {
+		"xmlFile": "planets/ShipLogs/windingstaircase.xml",
+		"spriteFolder": "planets/ShipLogs/entries",
+		"mapMode": {
+			"scale": 0.15,
+			"offset": 0,
+			"revealedSprite": "planets/ShipLogs/sprites/windingstaircase_map_mode.png"
+		}
+	}
+}
