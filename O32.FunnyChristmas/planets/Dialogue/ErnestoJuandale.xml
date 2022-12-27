@@ -78,6 +78,9 @@
 
 	<DialogueNode>
 		<Name>5</Name>
+		<RevealFacts>
+			<FactID>WINDINGSTAIRCASE_WITNESS</FactID>
+		</RevealFacts>
 		<Dialogue>
 			<Page>You'd best be finding answers on Winding STAREcase.</Page>
 		</Dialogue>
@@ -91,9 +94,6 @@
 
 	<DialogueNode>
 		<Name>6</Name>
-		<RevealFacts>
-			<FactID>WINDINGSTAIRCASE_WITNESS</FactID>
-		</RevealFacts>
 		<RevealFacts>
 			<FactID>NORTH_EXPLORED</FactID>
 		</RevealFacts>

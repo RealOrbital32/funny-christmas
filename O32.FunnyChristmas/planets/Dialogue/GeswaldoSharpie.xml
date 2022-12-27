@@ -90,18 +90,25 @@
 		<RevealFacts>
 			<FactID>SHARPIE_GESWALDO_SNATA</FactID>
 		</RevealFacts>
-		<RevealFacts>
-			<FactID>SNATA_RUMOR</FactID>
-		</RevealFacts>
 		<Dialogue>
 			<Page>Fuck. You got me. Well, Snata Claws is inside that big blue gas giant we're orbiting.</Page>
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
 				<Text>wow ok</Text>
-				<DialogueTarget>END</DialogueTarget>
+				<DialogueTarget>GOTTEM</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>GOTTEM</Name>
+		<RevealFacts>
+			<FactID>SNATA_RUMOR</FactID>
+		</RevealFacts>
+		<Dialogue>
+			<Page>good luck.</Page>
+		</Dialogue>
 	</DialogueNode>
 	
 	<DialogueNode>

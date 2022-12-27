@@ -22,6 +22,9 @@
 	
 	<DialogueNode>
 		<Name>1</Name>
+		<RevealFacts>
+			<FactID>SHARPIE_RUMOR_DRIP</FactID>
+		</RevealFacts>
 		<Dialogue>
 			<Page>Yeah, but I'm fucking stranded here. Can't you goddamn see that you little fucking twa-</Page>
 		</Dialogue>
@@ -37,9 +40,6 @@
 		<Name>2</Name>
 		<RevealFacts>
 			<FactID>SOUTH_ISLAND</FactID>
-		</RevealFacts>
-		<RevealFacts>
-			<FactID>SHARPIE_RUMOR_DRIP</FactID>
 		</RevealFacts>
 		<Dialogue>
 			<Page>*sigh*, I recall seeing a stardust trail (whom belongs to Snata) going in the direction of Sensual Aroma. If I had to guess, he's on the penis moon.</Page>
