@@ -18,7 +18,13 @@
 		"longitudeOfAscendingNode": 184,
 		"eccentricity": 0.05,
 		"argumentOfPeriapsis": 12,
-		"siderealPeriod": 2.5
+		"siderealPeriod": 2.5,
+		"tint": {
+			"r": 117,
+			"g": 150,
+			"b": 110,
+			"a": 255
+		}
 	},
 	"HeightMap": {
 		"heightMap": "planets/assets/retard_h.png",

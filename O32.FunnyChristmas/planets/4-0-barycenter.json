@@ -9,7 +9,13 @@
 		"semiMajorAxis": 40000,
 		"inclination": 17,
 		"primaryBody": "testicular torsion twins",
-		"trueAnomaly": 65
+		"trueAnomaly": 65,
+		"tint": {
+			"r": 237,
+			"g": 173,
+			"b": 157,
+			"a": 255
+		}
 	},
 	"FocalPoint": {
 		"primary": "tires on dat car",

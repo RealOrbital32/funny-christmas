@@ -18,7 +18,13 @@
 		"longitudeOfAscendingNode": 0,
 		"eccentricity": 0,
 		"argumentOfPeriapsis": 0,
-		"siderealPeriod": 7
+		"siderealPeriod": 7,
+		"tint": {
+			"r": 0,
+			"g": 115,
+			"b": 255,
+			"a": 255
+		}
 	},
 	"Atmosphere": {
 		"size": 1000,

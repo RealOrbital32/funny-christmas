@@ -17,7 +17,13 @@
 		"longitudeOfAscendingNode": 0,
 		"eccentricity": 0.1,
 		"argumentOfPeriapsis": 0,
-		"siderealPeriod": 3
+		"siderealPeriod": 3,
+		"tint": {
+			"r": 189,
+			"g": 222,
+			"b": 186,
+			"a": 255
+		}
 	},
 	"HeightMap": {
 		"heightMap": "planets/assets/windingstaircase_h.png",

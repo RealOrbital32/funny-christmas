@@ -8,7 +8,8 @@
 		"hasMapMarker": true
 	},
 	"Orbit": {
-		"semiMajorAxis": 20000,
+		"trueAnomaly": 63,
+		"semiMajorAxis": 21000,
 		"inclination": 2,
 		"primaryBody": "testicular torsion twins",
 		"isMoon": false,
@@ -17,7 +18,13 @@
 		"longitudeOfAscendingNode": 0,
 		"eccentricity": 0,
 		"argumentOfPeriapsis": 0,
-		"siderealPeriod": 4
+		"siderealPeriod": 4,
+		"tint": {
+			"r": 50,
+			"g": 89,
+			"b": 63,
+			"a": 255
+		}
 	},
 	"HeightMap": {
 		"heightMap": "planets/assets/juandale_h.png",
