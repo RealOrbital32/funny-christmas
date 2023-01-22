@@ -8,7 +8,7 @@
 		"hasMapMarker": true
 	},
 	"Orbit": {
-		"semiMajorAxis": 25000,
+		"semiMajorAxis": 20000,
 		"inclination": 2,
 		"primaryBody": "testicular torsion twins",
 		"isMoon": false,

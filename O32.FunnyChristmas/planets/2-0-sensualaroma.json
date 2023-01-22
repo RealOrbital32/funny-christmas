@@ -8,8 +8,9 @@
 		"hasMapMarker": true
 	},
 	"Orbit": {
-		"semiMajorAxis": 35000,
+		"semiMajorAxis": 30000,
 		"inclination": 357,
+		"trueAnomaly": 227,
 		"primaryBody": "testicular torsion twins",
 		"isMoon": false,
 		"isTidallyLocked": false,
@@ -41,6 +42,7 @@
 				"b": 156,
 				"a": 255
 			},
+			"rotationSpeed": 2,
 			"fluidType": "plasma",
 			"hasLightning": false
 		}

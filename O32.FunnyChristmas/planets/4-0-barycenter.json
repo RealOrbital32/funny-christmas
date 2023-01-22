@@ -6,7 +6,7 @@
 		"hasMapMarker": false
 	},
 	"Orbit": {
-		"semiMajorAxis": 55000,
+		"semiMajorAxis": 40000,
 		"inclination": 17,
 		"primaryBody": "testicular torsion twins",
 		"trueAnomaly": 65

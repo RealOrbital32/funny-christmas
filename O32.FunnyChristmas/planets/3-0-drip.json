@@ -9,7 +9,8 @@
 		"ambientLight": 1
 	},
 	"Orbit": {
-		"semiMajorAxis": 45000,
+		"semiMajorAxis": 35000,
+		"trueAnomaly": 123,
 		"inclination": 1,
 		"primaryBody": "testicular torsion twins",
 		"isMoon": false,
