@@ -23,7 +23,7 @@
 	<DialogueNode>
 		<Name>1</Name>
 		<Dialogue>
-			<Page>mewwy cwistmas~! OwO</Page>
+			<Page>mewwy cwistmas~!</Page>
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
@@ -78,7 +78,7 @@
 			<FactID>SNATA_FOUND</FactID>
 		</RevealFacts>
 		<Dialogue>
-			<Page>Anyway, I'm going "mad" staying under here~, so you'd better leave before my insticts pull me on top of you.</Page>
+			<Page>Anyway, I'm going "mad" staying under here~, so you'd better leave before my brain goes wooosh~!</Page>
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
@@ -91,7 +91,7 @@
 	<DialogueNode>
 		<Name>END</Name>
 		<Dialogue>
-			<Page>Ho-ho-ho... haaaaahhhh~!!!</Page>
+			<Page>Ho-ho-ho... HAAAAAAAAAA!!!</Page>
 		</Dialogue>
 	</DialogueNode>
 </DialogueTree>

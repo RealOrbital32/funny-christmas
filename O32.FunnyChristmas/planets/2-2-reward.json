@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
-	"name": "lil' retard",
+	"name": "lil' reward",
 	"starSystem": "O32.FunnySystem",
 	"Base": {
 		"surfaceSize": 75,
@@ -27,8 +27,8 @@
 		}
 	},
 	"HeightMap": {
-		"heightMap": "planets/assets/retard_h.png",
-		"textureMap": "planets/assets/retard_t.png",
+		"heightMap": "planets/assets/reward_h.png",
+		"textureMap": "planets/assets/reward_t.png",
 		"minHeight": 10,
 		"maxHeight": 75
 	},
@@ -61,12 +61,12 @@
 		]
 	},
 	"ShipLog": {
-		"xmlFile": "planets/ShipLogs/lilretard.xml",
+		"xmlFile": "planets/ShipLogs/lilreward.xml",
 		"spriteFolder": "planets/ShipLogs/entries",
 		"mapMode": {
 			"scale": 0.075,
 			"offset": 0,
-			"revealedSprite": "planets/ShipLogs/sprites/lilretard_map_mode.png"
+			"revealedSprite": "planets/ShipLogs/sprites/lilreward_map_mode.png"
 		}
 	}
 }

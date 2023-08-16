@@ -1,15 +1,15 @@
 <AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
-    <ID>retard</ID>
+    <ID>reward</ID>
 
 	<Entry>
-		<ID>RETARD_DESC</ID>
-		<Name>lil' retard</Name>
+		<ID>REWARD_DESC</ID>
+		<Name>lil' reward</Name>
 
 		<Curiosity>TTTWINS</Curiosity>
 
 		<ExploreFact>
-			<ID>RETARD_DISCOVERY</ID>
-			<Text>tries to be a rectangular prism but fails retardedly</Text>
+			<ID>REWARD_DISCOVERY</ID>
+			<Text>tries to be a rectangular prism but fails rewardedly</Text>
 		</ExploreFact>
 	</Entry>
 </AstroObjectEntry>
